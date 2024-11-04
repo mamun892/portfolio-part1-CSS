@@ -1,0 +1,235 @@
+/* nab start from here */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #0c6168;
+    padding: 2% 5%;
+    display: flex;
+    flex-direction: column;
+    /* Default to column layout */
+    align-items: center;
+    /* Center content horizontally */
+    text-align: center;
+
+    /* Center text within each section */
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    color: white;
+    margin: 10px 0;
+    font-size: 1.8rem;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    /* Column layout for menu items */
+    text-transform: uppercase;
+    align-items: center;
+    /* Center links horizontally */
+    gap: 10px;
+    /* Adds space between menu links */
+}
+
+.menu a {
+    color: wheat;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 10px 20px;
+    padding: 10px 20px;
+
+}
+
+.menu a:hover {
+    background-color: gray;
+}
+
+/* Larger screens - Switch to row layout */
+@media (min-width: 768px) {
+    .navbar {
+        flex-direction: row;
+        /* Row layout for entire navbar */
+        justify-content: space-between;
+        /* Spread out items */
+        text-align: left;
+    }
+
+    .logo,
+    .title,
+    .menu {
+        align-items: flex-start;
+        /* Align to the left */
+    }
+
+    .menu {
+        flex-direction: row;
+        /* Row layout for menu items */
+        gap: 15px;
+        /* Space between menu links */
+    }
+
+    .menu a {
+        padding: 5px 15px;
+    }
+}
+
+/* nab end here */
+h2 {
+    text-align: center;
+
+}
+
+p {
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.profile {
+
+    padding: 130px 10px;
+    text-align: center;
+
+}
+
+.description p {
+    color: gray;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto 20px auto;
+}
+
+.buttom-weather-icon {
+    width: 200px;
+}
+
+.top-weather-icon {
+    width: 150px;
+}
+
+.top-weather-icon:hover {
+    width: 50px;
+    right: 120px;
+    transition: width 1.5s, transform 1.5s;
+
+}
+
+.about-me {
+
+    background-color: #39a4ac;
+    padding: 1% 7%;
+    color: white;
+    text-align: center;
+    font-family: monospace;
+}
+
+.des {
+    padding-top: 80px;
+}
+
+.image img {
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 200px;
+}
+
+.about-me p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.image img:hover {
+    width: 150px;
+}
+
+.professional-experiance {
+
+    padding: 1% 9%;
+    width: 900px;
+    
+    
+    
+  
+}
+
+.professional-experiance .card {
+
+    background-color: #a39e9e;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.3s;
+    height: 800px;
+}
+
+.card-icon {
+    text-align: center;
+
+}
+
+.card-icon img {
+
+    margin-top: 20px;
+    width: 150px;
+    
+
+
+}
+
+.round {
+    border: 5px solid white;
+    border-radius: 50% 50%;
+    padding: 5px;
+}
+
+.title h4 {
+    background-color: #8d8d8d;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 5px black;
+
+}
+
+.professional-experiance ::after {
+
+    clear: both;
+    display: table;
+    content: '';
+}
+.card-2{
+
+    background-color: #a39e9e;
+   margin-top: 20px;
+   padding-left: 200px;
+}
+.icon-2{
+    margin-top: 20px;
+    width: 150px;
+    
+
+}
+.nai{
+    border: 5px solid white;
+    border-radius: 50% 50%;
+    padding: 5px;
+}
